@@ -26,7 +26,7 @@ Name: Gong Xiaofeng
 
   ## Setup requirements
 
-  ```npm
+  ```
 npm install
   ```
 
@@ -36,7 +36,7 @@ npm install
 
   Create private username and password for TMDB
 
-  ![image-20201211143305207](public\image-20201211143305207.png)
+  ![image-20201211143305207](https://github.com/copyninnja/readme.git/raw/master/public/image-20201211143305207.png)
 
   ## API Data Model.
 
@@ -53,55 +53,55 @@ npm install
 
   ### Component catalogue 
 
-  ![image-20201209010526829](public\image-20201209010526829.png)
+  ![image-20201209010526829](public/image-20201209010526829.png)
 
   
 
   ## UI Design.
 
-  ![image-20201209010731333](public\image-20201209010731333.png)
+  ![image-20201209010731333](public/image-20201209010731333.png)
 
 > filter multiple genres
 
-![image-20201209114745982](public\image-20201209114745982.png)
+![image-20201209114745982](public/image-20201209114745982.png)
 
 > show different languages
 
-![image-20201209115250349](public\image-20201209115250349.png)
+![image-20201209115250349](public/image-20201209115250349.png)
 
 > fontawesome  icon button
 
-![image-20201209115440297](public\image-20201209115440297.png)
+![image-20201209115440297](public/image-20201209115440297.png)
 
-![image-20201209115700527](public\image-20201209115700527.png)
+![image-20201209115700527](public/image-20201209115700527.png)
 
 > Show different contents according to authContext
 
-![image-20201209123622717](public\image-20201209123622717.png)
+![image-20201209123622717](public/image-20201209123622717.png)
 
-![image-20201209123926715](public\image-20201209123926715.png)
+![image-20201209123926715](public/image-20201209123926715.png)
 
 > Login page and alert function
 
-![image-20201209120459875](public\image-20201209120459875.png)
+![image-20201209120459875](public/image-20201209120459875.png)
 
 > Register page
 
-![image-20201209115942652](public\image-20201209115942652.png)
+![image-20201209115942652](public/image-20201209115942652.png)
 
 > popular page
 
-![image-20201209120026336](public\image-20201209120026336.png)
+![image-20201209120026336](public/image-20201209120026336.png)
 
-![image-20201209123841420](public\image-20201209123841420.png)
+![image-20201209123841420](public/image-20201209123841420.png)
 
-![image-20201209123814921](public\image-20201209123814921.png)
+![image-20201209123814921](public/image-20201209123814921.png)
 
-![image-20201209123752400](public\image-20201209123752400.png)
+![image-20201209123752400](public/image-20201209123752400.png)
 
 > shows a gallery automatically switch poster. Give hint when user hovers on the stars.
 
-![image-20201209120258899](public\image-20201209120258899.png)
+![image-20201209120258899](public/image-20201209120258899.png)
 
 > Blur the backdrop poster as background
 
@@ -121,15 +121,15 @@ npm install
 
 ------
 
-![image-20201209124404901](public\image-20201209124404901.png)
+![image-20201209124404901](public/image-20201209124404901.png)
 
 All buttons added represent an individual page
 
-![image-20201209124244545](public\image-20201209124244545.png)
+![image-20201209124244545](public/image-20201209124244545.png)
 
 Link to login page
 
-![image-20201209124312764](public\image-20201209124312764.png)
+![image-20201209124312764](public/image-20201209124312764.png)
 
 the link in login page redirect to register page
 
@@ -138,26 +138,26 @@ the link in login page redirect to register page
 ------
 
 1. 3rd party components -- 
-   - src\components\Carousel\index.js
-   - src\components\CarouselCard\index.js
-   - src\components\filterControls\index.js
-   - src\components\HeaderUser\index.js
-   - src\components\radioBox\index.js
-   - src\components\rate\index.js
-   - src\components\templateMoviePage\index.js
+   - src/components/Carousel/index.js
+   - src/components/CarouselCard/index.js
+   - src/components/filterControls/index.js
+   - src/components/HeaderUser/index.js
+   - src/components/radioBox/index.js
+   - src/components/rate/index.js
+   - src/components/templateMoviePage/index.js
 2. firebase authentication -- 
-   - src\contexts\authContext.js
-   - src\pages\loginPage.js
-   - src\pages\RegisterPage.js
-   - src\components\Firebase\firebase.js
+   - src/contexts/authContext.js
+   - src/pages/loginPage.js
+   - src/pages/RegisterPage.js
+   - src/components/Firebase/firebase.js
 3. POST/DELETE/PUT request --
-   - src\components\rate\index.js
-   - src\pages\TopRatePage.js
+   - src/components/rate/index.js
+   - src/pages/TopRatePage.js
 4. useForm hook --
-   - src\pages\loginPage.js
-   - src\pages\RegisterPage.js
+   - src/pages/loginPage.js
+   - src/pages/RegisterPage.js
 5. session technology --
-   - src\pages\TopRatePage.js
+   - src/pages/TopRatePage.js
 
 ------
 
@@ -189,43 +189,43 @@ Name : Xiaofeng Gong
 
 + filter_Genre : allow user to choose multiple genres to filter the movies
 
-Tests: cypress\integration\home-page.spec.js
+Tests: cypress/integration/home-page.spec.js
 
-![image-20201209190620400](public\image-20201209190620400.png)
+![image-20201209190620400](public/image-20201209190620400.png)
 
 - language : will re-fetch corresponding language of movies from TMDB api and re-render the movie list.
 
-Tests: cypress\integration\home-page.spec.js
+Tests: cypress/integration/home-page.spec.js
 
-![image-20201209200700728](public\image-20201209200700728.png)
+![image-20201209200700728](public/image-20201209200700728.png)
 
 - login page/register page : display a form that collects user data 
 
-Tests : cypress\integration\login-page.spec.js
+Tests : cypress/integration/login-page.spec.js
 
-![image-20201209223310943](public\image-20201209223310943.png)
+![image-20201209223310943](public/image-20201209223310943.png)
 
-![image-20201209223323295](public\image-20201209223323295.png)
+![image-20201209223323295](public/image-20201209223323295.png)
 
 - login navigation : check the login/logOut function, useform hook availability
 
-Tests : cypress\integration\navigation.spec.js
+Tests : cypress/integration/navigation.spec.js
 
-![image-20201209223826453](public\image-20201209223826453.png)
+![image-20201209223826453](public/image-20201209223826453.png)
 
 
 
 - popular page : show popular movies. Test private route, layout
 
-Tests : cypress\integration\popular-page.spec.js
+Tests : cypress/integration/popular-page.spec.js
 
-![image-20201209224054211](public\image-20201209224054211.png)
+![image-20201209224054211](public/image-20201209224054211.png)
 
 - Top-rate page : allow user to automatically browse Top-rated movies,  allow user to rate movies
 
-Tests : cypress\integration\toprate-page.spec.js
+Tests : cypress/integration/toprate-page.spec.js
 
-![image-20201209231019656](public\image-20201209231019656.png)
+![image-20201209231019656](public/image-20201209231019656.png)
 
 ## Testing.
 
@@ -235,13 +235,13 @@ Cypress Dashboard URL: https://dashboard.cypress.io/projects/fekvo5/runs?branche
 
 boundary and/or error/exceptional test case
 
-+ cypress\integration\home-page.spec.js - test the movies when choose too many genres, incorrect titles
-+ cypress\integration\login-page.spec.js - test invalid username and too short password
-+ cypress\integration\navigation.spec.js - test unauthorized navigate to prrivate routes.
++ cypress/integration/home-page.spec.js - test the movies when choose too many genres, incorrect titles
++ cypress/integration/login-page.spec.js - test invalid username and too short password
++ cypress/integration/navigation.spec.js - test unauthorized navigate to prrivate routes.
 
 ## Independent learning
 
-- Custom commands -- cypress\support\commands.js 
+- Custom commands -- cypress/support/commands.js 
 
 ```
 Cypress.Commands.add('login', () => {
@@ -279,9 +279,9 @@ Cypress.Commands.add('logout', () => {
 })
 ```
 
-- Layout-inspector -- cypress\integration\popular-page.spec.js
+- Layout-inspector -- cypress/integration/popular-page.spec.js
 
--- cypress\integration\toprate-page.spec.js
+-- cypress/integration/toprate-page.spec.js
 
 ```
 describe("check layout", () => {
@@ -314,13 +314,11 @@ describe("check layout", () => {
 
    cy.get(`[data-cy=${movies[0].id}]`).find("img").should('be.horizontallyAligned',
 
-​    `[data-cy=${movies[1].id}] img`, "top");
+    `[data-cy=${movies[1].id}] img`, "top");
 
    cy.get(`[data-cy=${movies[4].id}]`).find("img").should('be.verticallyAligned',
 
-​    `[data-cy=${movies[0].id}] img`, "left");
-
-
+    `[data-cy=${movies[0].id}] img`, "left");
 
    cy.wait(1000)
 
@@ -329,9 +327,6 @@ describe("check layout", () => {
    cy.logout()
 
   });
-
-
-
  });
 ```
 
@@ -342,7 +337,7 @@ describe("check layout", () => {
 
    cy.get('[data-cy="761053"]').should('be.horizontallyAligned',
 
-​    "#761053", "top");
+    "#761053", "top");
 
    cy.wait(1000)
 
@@ -351,10 +346,10 @@ describe("check layout", () => {
   });
 ```
 
-- code-coverage --  all by @cypress/instrument![image-20201210225041871](public\image-20201210225041871.png)
+- code-coverage --  all by @cypress/instrument![image-20201210225041871](public/image-20201210225041871.png)
 - Percy -- a snapshot per test  https://percy.io/02d31275/movieApp![image-20201210230259417](public/image-20201210230259417.png)
 
-- code-splitting -- src\index.js
+- code-splitting -- src/index.js
 
 ```
 const TopRatePage = lazy(() => import("./pages/TopRatePage"));
@@ -367,6 +362,8 @@ const AddMovieReviewPage = lazy(() => import("./pages/addMovieReviewPage"));
 const MoviePage = lazy(() => import("./pages/movieDetailsPage"));
 
 ```
+
+
 
 ------
 
