@@ -27,8 +27,10 @@ Name: Gong Xiaofeng
   ## Setup requirements
 
   ```
-npm install
+  npm install
   ```
+
+  
 
   Create  individual firebase configuration.
 
@@ -53,55 +55,55 @@ npm install
 
   ### Component catalogue 
 
-  ![image-20201209010526829](public/image-20201209010526829.png)
+  ![image-20201209010526829](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209010526829.png)
 
   
 
   ## UI Design.
 
-  ![image-20201209010731333](public/image-20201209010731333.png)
+  ![image-20201209010731333](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209010731333.png)
 
 > filter multiple genres
 
-![image-20201209114745982](public/image-20201209114745982.png)
+![image-20201209114745982](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209114745982.png)
 
 > show different languages
 
-![image-20201209115250349](public/image-20201209115250349.png)
+![image-20201209115250349](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209115250349.png)
 
 > fontawesome  icon button
 
-![image-20201209115440297](public/image-20201209115440297.png)
+![image-20201209115440297](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209115440297.png)
 
-![image-20201209115700527](public/image-20201209115700527.png)
+![image-20201209115700527](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209115700527.png)
 
 > Show different contents according to authContext
 
-![image-20201209123622717](public/image-20201209123622717.png)
+![image-20201209123622717](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209123622717.png)
 
-![image-20201209123926715](public/image-20201209123926715.png)
+![image-20201209123926715](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209123926715.png)
 
 > Login page and alert function
 
-![image-20201209120459875](public/image-20201209120459875.png)
+![image-20201209120459875](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209120459875.png)
 
 > Register page
 
-![image-20201209115942652](public/image-20201209115942652.png)
+![image-20201209115942652](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209115942652.png)
 
 > popular page
 
-![image-20201209120026336](public/image-20201209120026336.png)
+![image-20201209120026336](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209120026336.png)
 
-![image-20201209123841420](public/image-20201209123841420.png)
+![image-20201209123841420](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209123841420.png)
 
-![image-20201209123814921](public/image-20201209123814921.png)
+![image-20201209123814921](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209123814921.png)
 
-![image-20201209123752400](public/image-20201209123752400.png)
+![image-20201209123752400](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209123752400.png)
 
 > shows a gallery automatically switch poster. Give hint when user hovers on the stars.
 
-![image-20201209120258899](public/image-20201209120258899.png)
+![image-20201209120258899](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209120258899.png)
 
 > Blur the backdrop poster as background
 
@@ -121,15 +123,15 @@ npm install
 
 ------
 
-![image-20201209124404901](public/image-20201209124404901.png)
+![image-20201209124404901](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209124404901.png)
 
 All buttons added represent an individual page
 
-![image-20201209124244545](public/image-20201209124244545.png)
+![image-20201209124244545](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209124244545.png)
 
 Link to login page
 
-![image-20201209124312764](public/image-20201209124312764.png)
+![image-20201209124312764](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209124312764.png)
 
 the link in login page redirect to register page
 
@@ -191,27 +193,27 @@ Name : Xiaofeng Gong
 
 Tests: cypress/integration/home-page.spec.js
 
-![image-20201209190620400](public/image-20201209190620400.png)
+![image-20201209190620400](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209190620400.png)
 
 - language : will re-fetch corresponding language of movies from TMDB api and re-render the movie list.
 
 Tests: cypress/integration/home-page.spec.js
 
-![image-20201209200700728](public/image-20201209200700728.png)
+![image-20201209200700728](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209200700728.png)
 
 - login page/register page : display a form that collects user data 
 
 Tests : cypress/integration/login-page.spec.js
 
-![image-20201209223310943](public/image-20201209223310943.png)
+![image-20201209223310943](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209223310943.png)
 
-![image-20201209223323295](public/image-20201209223323295.png)
+![image-20201209223323295](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209223323295.png)
 
 - login navigation : check the login/logOut function, useform hook availability
 
 Tests : cypress/integration/navigation.spec.js
 
-![image-20201209223826453](public/image-20201209223826453.png)
+![image-20201209223826453](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209223826453.png)
 
 
 
@@ -219,13 +221,13 @@ Tests : cypress/integration/navigation.spec.js
 
 Tests : cypress/integration/popular-page.spec.js
 
-![image-20201209224054211](public/image-20201209224054211.png)
+![image-20201209224054211](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209224054211.png)
 
 - Top-rate page : allow user to automatically browse Top-rated movies,  allow user to rate movies
 
 Tests : cypress/integration/toprate-page.spec.js
 
-![image-20201209231019656](public/image-20201209231019656.png)
+![image-20201209231019656](https://github.com/copyninnja/readme.git/raw/master/public/image-20201209231019656.png)
 
 ## Testing.
 
@@ -243,41 +245,7 @@ boundary and/or error/exceptional test case
 
 - Custom commands -- cypress/support/commands.js 
 
-```
-Cypress.Commands.add('login', () => {
 
-  cy.visit("/");
-
-  cy.get("svg").eq(2).click();
-
-  cy.get('[data-cy="SignIn"]').click();
-
-  cy.get('input[name="email"]').click()
-
-  cy.get('input[name="email"]').type("123@qq.com");
-
-  cy.get('[data-cy="userpassword"]').type("123123");
-
-  cy.get('button[data-cy="Sign In"]').click()
-
-})
-
-Cypress.Commands.add('logout', () => {
-
-  cy.visit("/");
-
-  cy.get("svg").eq(2).click();
-
-  cy.get('[data-cy="SignIn"]').click();
-
-  cy.wait(1000)
-
-  cy.get("svg").eq(-1).click()
-
-  cy.get('[data-cy="SignOut"]').click()
-
-})
-```
 
 - Layout-inspector -- cypress/integration/popular-page.spec.js
 
@@ -285,49 +253,25 @@ Cypress.Commands.add('logout', () => {
 
 ```
 describe("check layout", () => {
+    beforeEach(() => {
+      cy.visit("/");
+      cy.get("nav").find("li").eq(3).find("a").click();
+      cy.wait(1000)
+      cy.get("nav").find("li").eq(3).find("a").click();
+      cy.wait(1000)
+    });
+    it("check cards layout", () => {
+      cy.get(`[data-cy=${movies[0].id}]`).find("img").should('be.horizontallyAligned',
+        `[data-cy=${movies[1].id}] img`, "top");
+      cy.get(`[data-cy=${movies[4].id}]`).find("img").should('be.verticallyAligned',
+        `[data-cy=${movies[0].id}] img`, "left");
 
-  beforeEach(() => {
-
-   cy.visit("/");
-
-   cy.get("nav").find("li").eq(3).find("a").click();
-
-   cy.wait(1000)
-
-   cy.get("nav").find("li").eq(3).find("a").click();
-
-   cy.wait(1000)
-
-  });
-
-  it("check cards layout", () => {
-
-   //  cy.get(".card").each(($card, index) => {
-
-   //   cy.wrap($card)
-
-   //     .get(".card-title")
-
-   //     .should("be.verticallyAligned", "svg","left");
-
-   // });  
-
-   cy.get(`[data-cy=${movies[0].id}]`).find("img").should('be.horizontallyAligned',
-
-    `[data-cy=${movies[1].id}] img`, "top");
-
-   cy.get(`[data-cy=${movies[4].id}]`).find("img").should('be.verticallyAligned',
-
-    `[data-cy=${movies[0].id}] img`, "left");
-
-   cy.wait(1000)
-
-   cy.percySnapshot();
-
-   cy.logout()
+      cy.wait(1000)
+      cy.percySnapshot();
+      cy.logout()
+    });
 
   });
- });
 ```
 
 ```
@@ -346,8 +290,8 @@ describe("check layout", () => {
   });
 ```
 
-- code-coverage --  all by @cypress/instrument![image-20201210225041871](public/image-20201210225041871.png)
-- Percy -- a snapshot per test  https://percy.io/02d31275/movieApp![image-20201210230259417](public/image-20201210230259417.png)
+- code-coverage --  all by @cypress/instrument![image-20201210225041871](https://github.com/copyninnja/readme.git/raw/master/public/image-20201210225041871.png)
+- Percy -- a snapshot per test  https://percy.io/02d31275/movieApp![image-20201210230259417](https://github.com/copyninnja/readme.git/raw/master/public/image-20201210230259417.png)
 
 - code-splitting -- src/index.js
 
@@ -360,9 +304,7 @@ const UpcomingPage = lazy(() => import("./pages/UpcomingPage"));
 const FavoriteMoviesPage = lazy(() => import("./pages/favoritesMoviesPage"));
 const AddMovieReviewPage = lazy(() => import("./pages/addMovieReviewPage"));
 const MoviePage = lazy(() => import("./pages/movieDetailsPage"));
-
 ```
-
 
 
 ------
