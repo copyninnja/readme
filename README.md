@@ -38,7 +38,7 @@ Name: Gong Xiaofeng
 
   Create private username and password for TMDB
 
-  ![](https://github.com/copyninnja/readme/blob/master/public/image-20201209004957215.png)
+  ![](./public/image-20201209004957215.png)
 
   ## API Data Model.
 
@@ -55,7 +55,7 @@ Name: Gong Xiaofeng
 
   ### Component catalogue 
 
-  ![image-20201209010526829](https://github.com/copyninnja/readme/blob/master/public/image-20201209010526829.png)
+  !./public/image-20201209010526829.png)
 
   
 
